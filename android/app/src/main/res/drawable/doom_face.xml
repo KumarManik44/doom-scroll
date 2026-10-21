@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Doom-style face: our own drawing, not Marvel artwork (see DESIGN.md "Doom face icon"). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Hood -->
+    <path android:fillColor="@color/doom_hood"
+        android:pathData="M24,2C12,2 5,11 5,23L5,46L43,46L43,23C43,11 36,2 24,2Z" />
+    <!-- Mask, lit left half -->
+    <path android:fillColor="@color/doom_metal"
+        android:pathData="M24,9C16,9 12,14 12,22L12,34C12,40 17,44 24,44C31,44 36,40 36,34L36,22C36,14 32,9 24,9Z" />
+    <!-- Mask, shaded right half -->
+    <path android:fillColor="@color/doom_metal_shadow"
+        android:pathData="M24,9C32,9 36,14 36,22L36,34C36,40 31,44 24,44Z" />
+    <!-- Brow -->
+    <path android:fillColor="@color/doom_metal_shadow"
+        android:pathData="M13,19L23,21L23,22.5L13,20.5Z" />
+    <path android:fillColor="@color/doom_metal"
+        android:pathData="M35,19L25,21L25,22.5L35,20.5Z" />
+    <!-- Eye slits -->
+    <path android:fillColor="@color/doom_dark"
+        android:pathData="M14.5,23.5L21.5,25L21.5,27L14.5,25.5Z" />
+    <path android:fillColor="@color/doom_dark"
+        android:pathData="M33.5,23.5L26.5,25L26.5,27L33.5,25.5Z" />
+    <!-- Mouth slot and grille -->
+    <path android:fillColor="@color/doom_dark"
+        android:pathData="M17,33L31,33L31,35L17,35Z" />
+    <path android:fillColor="@color/doom_dark"
+        android:pathData="M18.5,35h1.6v5h-1.6zM22,35h1.6v5.5h-1.6zM24.4,35h1.6v5.5h-1.6zM27.9,35h1.6v5h-1.6z" />
+</vector>

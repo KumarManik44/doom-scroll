@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No packageNames filter: we need other apps' window changes to hide the overlay when Instagram leaves the screen. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+  android:description="@string/reel_counter_description"
+  android:accessibilityEventTypes="typeViewScrolled|typeWindowStateChanged|typeWindowContentChanged"
+  android:accessibilityFeedbackType="feedbackGeneric"
+  android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews"
+  android:canRetrieveWindowContent="true"
+  android:notificationTimeout="0" />

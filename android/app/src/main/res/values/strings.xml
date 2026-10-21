@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Doom Scroll</string>
+    <string name="reel_counter_description">Counts the Instagram Reels you scroll each day and shows the count on top of Instagram. Nothing leaves your phone.</string>
+</resources>

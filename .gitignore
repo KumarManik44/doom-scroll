@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# Metro
+.metro-health-check*
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+.kotlin/
+android/local.properties
+*.keystore
+!debug.keystore
+
+# debug
+npm-debug.*
+yarn-error.*
+
+# env / secrets
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.tsbuildinfo
+coverage/
+
+# Claude Code personal settings
+.claude/settings.local.json
