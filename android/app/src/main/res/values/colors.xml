@@ -5,6 +5,7 @@
     <color name="overlay_text">#111114</color>
     <color name="overlay_border">#E4E4E9</color>
     <color name="doom_dark">#0B0B0E</color>
+    <color name="launcher_bg">#FFFFFF</color>
     <color name="doom_metal">#9AA1AB</color>
     <color name="doom_metal_shadow">#5E646D</color>
     <color name="doom_hood">#2F5D3A</color>

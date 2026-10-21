@@ -27,6 +27,7 @@ colors:
   overlay-text: "#111114"
   overlay-border: "#E4E4E9"
   doom-dark: "#0B0B0E"
+  launcher-bg: "#FFFFFF"
   doom-metal: "#9AA1AB"
   doom-metal-shadow: "#5E646D"
   doom-hood: "#2F5D3A"
@@ -160,7 +161,7 @@ Prefer color contrast (surface vs background) over shadows. If a shadow is neede
 - **Lists:** Native-feeling rows, min height 44pt, chevron only when tapping navigates.
 - **Tab bar:** 3–5 tabs max, icon + label, active tab in `primary`.
 - **Overlay pill (native, Android):** Light pill (`overlay-bg` white, 1px `overlay-border` outline; same in light and dark — it floats over other apps) with the Doom face icon (36px, nearly filling the pill height) on the left and today's reel count in `overlay-text` headline weight on the right. Top-center, below the status bar. Inspired by live-activity pills (Swiggy, Waymo). Not touchable — touches pass through to Instagram.
-- **Doom face icon:** Our own vector drawing (not Marvel artwork): steel mask (`doom-metal`, `doom-metal-shadow` for depth), dark eye slits and mouth grille (`doom-dark`), green hood (`doom-hood`). Doubles as the app launcher icon, on a `doom-dark` background. The `doom-*` colors are used only inside the icon.
+- **Doom face icon:** Our own vector drawing (not Marvel artwork): steel mask (`doom-metal`, `doom-metal-shadow` for depth), dark eye slits and mouth grille (`doom-dark`), green hood (`doom-hood`). Doubles as the app launcher icon, on a white (`launcher-bg`) background. The `doom-*` colors are used only inside the icon.
 - **Hero card:** Today's count on Home: `primary` background, `lg` radius, Doom face + `hero` number in `on-primary`. One per app.
 - **History bars:** `primary` fill on a `border` track.
 - **Empty states:** Short sentence + one action. No illustrations required.
