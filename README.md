@@ -20,3 +20,7 @@ Counts the Instagram Reels you scroll each day and shows the count in a Doctor D
 3. On the phone: Settings → Accessibility → Installed apps → **Doom Scroll reel counter** → On.
 
 Requires the Android SDK + JDK 17+.
+
+## License
+
+[MIT](LICENSE)

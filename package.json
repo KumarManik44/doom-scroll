@@ -2,6 +2,7 @@
   "name": "DoomScroll",
   "version": "0.3.2",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "lint": "eslint .",
